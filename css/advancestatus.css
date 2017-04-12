@@ -1,0 +1,126 @@
+/*
+-------------------------
+Colors
+-------------------------
+*/
+.white{background-color:#FFFFFF;}
+.lighten-grey{background-color:#F9FAFB;}
+.primary-grey{background-color:#DDDDDD;}
+.darken-grey{background-color:#CCCCCC;}
+.primary-green{background-color:#31E09A;}
+.primary-blue{background-color:#6DC3F5;}
+.darken-blue{background-color:#52697A;}
+.black{background-color:#333333;}
+
+.text-white{color:#FFFFFF;}
+.text-lighten-grey{color:#F9FAFB;}
+.text-primary-grey{color:#DDDDDD;}
+.text-darken-grey{color:#CCCCCC;}
+.text-primary-green{color:#31E09A;}
+.text-primary-blue{color:#68C3F2;}
+.text-darken-blue{color:#516979;}
+.text-black{color:#333333;}
+
+
+/*
+-------------------------
+Fonts
+-------------------------
+*/
+.font-60-bold{font-size:60px; font-weight:700;}
+.font-22-bold{font-size:22px; font-weight:700;}
+.font-18-bold{font-size:18px; font-weight:600;}
+.font-16-bold{font-size:16px; font-weight:700;}
+.font-16-reg{font-size:16px; font-weight:300;}
+
+.text-center{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+p{
+	margin: 16px 0;
+}
+
+
+/*
+-------------------------
+General Page Styles
+-------------------------
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #F9FAFB;
+	font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+header{
+	background-color:#FFFFFF;
+	height: 150px;
+	width: 100%;
+}
+
+nav{
+	background-color:#6DC3F5;
+	color: #FFFFFF;
+	padding: 12px 0;
+}
+
+main{
+	width: 85%;
+	max-width: 600px;
+	margin: 40px auto 0;
+}
+
+footer{
+	padding: 40px 0;
+}
+
+
+/*
+-------------------------
+Card Styles
+-------------------------
+*/
+
+
+/*
+-------------------------
+CTA Styles
+-------------------------
+*/
+.cta{
+	background-color:#6DC3F5;
+	padding: 20px;
+	border-radius: 4px;
+}
+.button{
+	display: inline-block;
+	color:#6DC3F5;
+	background-color: #FFFFFF;
+	padding: 15px 30px;
+	border-radius: 4px;
+	font-weight: 700;
+	text-decoration: none;
+	transition: box-shadow 0.5s ease-out, transform 0.5s ease-out;
+}
+.button:hover{
+	box-shadow: 0 0 10px 4px rgba(82,105,122,0.2);
+}
+.button:active{
+	transform: scale(0.94);
+}
+
+
+
+
+
+
+
+
