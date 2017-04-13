@@ -33,8 +33,9 @@ Fonts
 .font-60-bold{font-size:60px; font-weight:700;}
 .font-22-bold{font-size:22px; font-weight:700;}
 .font-18-bold{font-size:18px; font-weight:600;}
-.font-16-bold{font-size:16px; font-weight:700;}
+.font-16-bold{font-size:16px; font-weight:600;}
 .font-16-reg{font-size:16px; font-weight:300;}
+.font-14-reg{font-size:14px; font-weight:300;}
 
 .text-center{
 	display: block;
@@ -65,8 +66,11 @@ body{
 
 header{
 	background-color:#FFFFFF;
-	height: 150px;
 	width: 100%;
+	text-align: center;
+}
+.logo{
+	padding: 20px 0;
 }
 
 nav{
@@ -88,10 +92,30 @@ footer{
 
 /*
 -------------------------
-Card Styles
+Advance Amount Styles
 -------------------------
 */
-
+.funds-group{
+	display: block;
+  margin: 0 auto 40px;
+  width: 100%;
+  min-width: 300px;
+  background-color: white;
+	border: 3px solid #6DC3F5;
+  border-radius: 6px;
+}
+.funds-group .funds-title{
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.funds-group .funds-total{
+	display: block;
+	text-align: center;
+	padding-bottom: 15px;
+	margin-top: -10px;
+}
 
 /*
 -------------------------
@@ -100,14 +124,14 @@ CTA Styles
 */
 .cta{
 	background-color:#6DC3F5;
-	padding: 20px;
+	padding: 30px;
 	border-radius: 4px;
 }
 .button{
 	display: inline-block;
 	color:#6DC3F5;
 	background-color: #FFFFFF;
-	padding: 15px 30px;
+	padding: 10px 30px;
 	border-radius: 4px;
 	font-weight: 700;
 	text-decoration: none;
@@ -118,6 +142,25 @@ CTA Styles
 }
 .button:active{
 	transform: scale(0.94);
+}
+
+
+/*
+-------------------------
+Account Table
+-------------------------
+*/
+.account-info{
+	margin: 0 auto 30px;
+	border-collapse: collapse;
+}
+th{
+	text-align: right;
+	padding-right: 10px;
+}
+td{
+	text-align: left;
+	padding: 10px 0;
 }
 
 
