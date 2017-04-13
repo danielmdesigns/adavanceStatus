@@ -13,17 +13,23 @@
 </head>
 <body>
 
-<header>eCommission Logo goes here...</header>
+<header>
+	<img class="logo" src="imgs/ecommission-logo.png" alt="">	
+</header>
 <nav class="font-18-bold text-center">Hello, Agent Name.</nav>
 <main>
-	<h1 class="font-60-bold">Typography Test</h1>
-	<h2 class="font-22-bold">Typography Test</h2>
-	<h3 class="font-18-bold">Typography Test</h3>
-	<h4 class="font-16-bold">Typography Test</h4>
-	<h3 class="font-18-bold">Typography Test</h3>
 
+<!--
+<h1 class="font-60-bold">Typography Test</h1>
+<h2 class="font-22-bold">Typography Test</h2>
+<h3 class="font-18-bold">Typography Test</h3>
+<h4 class="font-16-bold">Typography Test</h4>
+-->
+
+<!-- Select Property -->
+<h4 class="text-center font-16-bold text-darken-blue">Checking advance status for...</h4>
 <div class="select">
-	<select name="prop" id="prop">
+	<select class="font-14-reg" name="prop" id="prop">
 		<option value="1">Please select a property address...</option>
 		<option value="2">$9,841 - 1890 Parrish Avenue</option>
 		<option value="3">$12,964 - 4466 Rocky Road</option>
@@ -32,17 +38,74 @@
 	</select>
 </div>
 
-<div class="card">
-	<div class="card-status check_on">
-		<img src="imgs/check.png" alt="">
-	</div>
-	<div class="card-text">
-		<div class="card-title">Title</div>
-		<div class="card-desc">We wire frunds within one hour of approval within business hours.</div>
-	</div>
-	<div class="clear"></div>
+
+<!-- Account Information -->
+<table class="account-info">
+  <tr>
+     <th class="text-darken-blue">Agreement No.:</th>
+     <td class="text-darken-blue">01-234567890</td>
+  </tr>
+  <tr>
+     <th class="text-darken-blue">Property Address:</th>
+     <td class="text-darken-blue">1234 Streename Ave.</td>
+  </tr>
+</table>
+
+
+<!-- Funding Amount -->
+<div class="funds-group">
+	<div class="funds-title font-16-bold text-primary-blue">Advance Amount</div>
+	<div class="funds-total font-60-bold text-black">$18,523</div>
 </div>
 
+
+<!-- Funding Status -->
+<div class="card-group">
+	<div class="card">
+		<div class="card-status check_on">
+			<img src="imgs/check.png" alt="">
+		</div>
+		<div class="card-text">
+			<div class="card-title">Your Signature</div>
+			<div class="card-desc">We require your digital signature via Docusign<sup>®</sup></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="card">
+		<div class="card-status check_off">
+			<img src="imgs/check.png" alt="">
+		</div>
+		<div class="card-text">
+			<div class="card-title">Broker's Signature</div>
+			<div class="card-desc">Your broker must approve your portion of the advance</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="card">
+		<div class="card-status check_off">
+			<img src="imgs/check.png" alt="">
+		</div>
+		<div class="card-text">
+			<div class="card-title">Closing Company Verification</div>
+			<div class="card-desc">We will confirm your transaction with the closing company</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="card">
+		<div class="card-status check_off">
+			<img src="imgs/check.png" alt="">
+		</div>
+		<div class="card-text">
+			<div class="card-title">Advance Funded</div>
+			<div class="card-desc">We wire frunds within one hour of approval within business hours.</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+
+
+
+<!-- Contact Center -->
 <div class="cta text-center">
 	<h3 class="font-18-bold text-white">Have Questions?</h3>
 	<p class="font-16-reg text-white">Contact us between 9:00am - 6:00pm CST at (877) 822-4368 or you can chat with us live.</p>
