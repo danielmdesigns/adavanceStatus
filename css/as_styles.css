@@ -48,6 +48,17 @@ p{
 }
 
 
+
+/*
+-------------------------
+Helper Tags
+-------------------------
+*/
+.is-hidden{
+	display: none;
+}
+
+
 /*
 -------------------------
 General Page Styles
@@ -87,6 +98,7 @@ main{
 
 footer{
 	padding: 40px 0;
+	font-size: 12px;
 }
 
 
@@ -96,13 +108,14 @@ Advance Amount Styles
 -------------------------
 */
 .funds-group{
-	display: block;
+	/*display: block;*/
   margin: 0 auto 40px;
   width: 100%;
-  min-width: 300px;
+  /*min-width: 300px;*/
   background-color: white;
 	border: 3px solid #6DC3F5;
   border-radius: 6px;
+	box-sizing: border-box;
 }
 .funds-group .funds-title{
 	display: block;
@@ -161,6 +174,15 @@ th{
 td{
 	text-align: left;
 	padding: 10px 0;
+}
+
+
+
+.empty-screen{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin-bottom: 40px;
 }
 
 
