@@ -107,7 +107,7 @@ footer{
 Advance Amount Styles
 -------------------------
 */
-.funds-group{
+.fundingAmount{
 	/*display: block;*/
   margin: 0 auto 40px;
   width: 100%;
@@ -117,13 +117,13 @@ Advance Amount Styles
   border-radius: 6px;
 	box-sizing: border-box;
 }
-.funds-group .funds-title{
+.fundingAmount .funds-title{
 	display: block;
 	text-align: center;
 	margin-top: 20px;
 	overflow: hidden;
 }
-.funds-group .funds-total{
+.fundingAmount .funds-total{
 	display: block;
 	text-align: center;
 	padding-bottom: 15px;
@@ -163,7 +163,7 @@ CTA Styles
 Account Table
 -------------------------
 */
-.account-info{
+.accountInfo{
 	margin: 0 auto 30px;
 	border-collapse: collapse;
 }
@@ -178,7 +178,7 @@ td{
 
 
 
-.empty-screen{
+.emptyState{
 	max-width: 100%;
 	height: auto;
 	display: block;

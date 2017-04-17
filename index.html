@@ -27,20 +27,22 @@
 -->
 
 <!-- Select Property -->
-<h4 class="text-center font-16-bold text-darken-blue">Checking advance status for...</h4>
-<div class="select">
-	<select class="font-14-reg" name="prop" id="prop">
-		<option value="1">Please select a property address...</option>
-		<option value="2">$9,841 - 1890 Parrish Avenue</option>
-		<option value="3">$12,964 - 4466 Rocky Road</option>
-		<option value="4">$9,146 - 158 Victoria Court</option>
-		<option value="5">$4,578 - 2623 Frederick Street</option>
-	</select>
+<div class="selectProperty">
+	<h4 class="text-center font-16-bold text-darken-blue">Checking advance status for...</h4>
+	<div class="select">
+		<select class="font-14-reg" name="prop" id="prop">
+			<option value="1">Please select a property address...</option>
+			<option value="2">$9,841 - 1890 Parrish Avenue</option>
+			<option value="3">$12,964 - 4466 Rocky Road</option>
+			<option value="4">$9,146 - 158 Victoria Court</option>
+			<option value="5">$4,578 - 2623 Frederick Street</option>
+		</select>
+	</div>
 </div>
 
 
 <!-- Account Information -->
-<table class="account-info">
+<table class="accountInfo">
   <tr>
      <th class="text-darken-blue">Agreement No.:</th>
      <td class="text-darken-blue">01-234567890</td>
@@ -53,25 +55,25 @@
 
 
 <!-- Empty State -->
-<img class="text-center empty-screen" src="imgs/empty_state.png" alt="">
+<img class="text-center emptyState" src="imgs/empty_state.png" alt="">
 
 
 <!-- Funding Amount -->
-<div class="funds-group">
+<div class="fundingAmount">
 	<div class="funds-title font-16-bold text-primary-blue">Advance Amount</div>
 	<div class="funds-total font-60-bold text-black">$18,523</div>
 </div>
 
 
 <!-- Funding Status -->
-<div class="card-group">
+<div class="advanceStatus card-group">
 	<div class="card">
 		<div class="card-status check_on">
 			<img src="imgs/check.png" alt="">
 		</div>
 		<div class="card-text">
 			<div class="card-title">Your Signature</div>
-			<div class="card-desc is-hidden">We require your digital signature via Docusign<sup>®</sup></div>
+			<div class="card-desc">We require your digital signature via Docusign<sup>®</sup></div>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -113,11 +115,29 @@
 <div class="cta text-center">
 	<h3 class="font-18-bold text-white">Have Questions?</h3>
 	<p class="font-16-reg text-white">Contact us between 9:00am - 6:00pm CST at (877) 822-4368 or you can chat with us live.</p>
-	<a href="#" class="button">Live Chat</a>
+	<a href="#" onclick="OpenLHNChat();return false;" class="button">Live Chat</a>
 </div>
 </main>
 
 <footer class="text-darken-blue text-center">© 2017 eCommission Financial Services, Inc.</footer>
+
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/as-scripts.js"></script>
+
+<!-- Chat Script -->
+<script type="text/javascript">
+    var lhnAccountN = "21513";v
+    var lhnInviteEnabled = 1;
+    var lhnDepartmentN = 24074;
+    var lhnWindowN = 25823;
+    var lhnHPTicketButton = false;
+    var lhnHPPanel = false;
+    var lhnHPMoreOptions = false;
+    var lhnHPCallbackButton = false;
+</script>
+<script src="//www.livehelpnow.net/lhn/widgets/helpouttab/lhnhelpouttab-current.min.js" type="text/javascript" id="lhnscriptho"></script>
+
 
 </body>
 </html>
