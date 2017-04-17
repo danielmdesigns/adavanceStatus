@@ -177,13 +177,39 @@ td{
 }
 
 
-
+/*
+-------------------------
+Empty State
+-------------------------
+*/
 .emptyState{
 	max-width: 100%;
 	height: auto;
 	display: block;
 	margin-bottom: 40px;
 }
+
+
+
+/*
+-------------------------
+Hide Live Chat Tab
+-------------------------
+*/
+.lhn_help_btn{
+	display: none !important;
+}
+.lhn_help_btn, .lhn_help_btn:visited {
+	background: url(/img/icons/help_btn.png) no-repeat scroll 0 0 transparent !important;
+	height: 149px !important;
+	width: 37px !important;
+}
+.lhn_help_btn:hover{
+	background: url(/img/icons/help_btn.png) no-repeat scroll 0 0 transparent !important;
+	height: 149px !important;
+	width: 37px !important;
+}
+
 
 
 
