@@ -8,8 +8,6 @@
   margin: 0 auto 10px;
   height: 120px;
   width: 100%;
-  /*max-width: 500px;*/
-  /*min-width: 300px;*/
   background-color: white;
   box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.1);
   border-radius: 4px;
@@ -18,7 +16,6 @@
 .card .card-status {
   height: 100%;
   width: 25%;
-  /*background-color: #CCCCCC;*/
   float: left;
   margin-right: 10px;
   border-top-left-radius: 4px;
@@ -29,11 +26,10 @@
 	display: block;
 	margin: 0 auto;
 	position: relative;
-  top: 35%;
+  top: 30%;
   left: 0%;
 	width: 60%;
 	max-width: 58px;
-  /*transform: translate(-50%, -50%);*/
 }
 
 .card .card-text {
@@ -54,7 +50,7 @@
 
 .card .card-text .card-desc {
   font-weight: 100;
-  font-size: 13px;
+  font-size: 14px;
 	padding-top: 4px;
   padding-right: 10px;
   color: #CCCCCC;
