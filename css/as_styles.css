@@ -43,6 +43,10 @@ Fonts
 	text-align: center;
 }
 
+a.white-link:link{
+	color: #FFFFFF;
+}
+
 p{
 	margin: 16px 0;
 }
