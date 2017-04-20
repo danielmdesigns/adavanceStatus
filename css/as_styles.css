@@ -168,17 +168,40 @@ Account Table
 -------------------------
 */
 .accountInfo{
-	margin: 0 auto 30px;
-	border-collapse: collapse;
+	margin: 0 auto 10px;
+	display: table;
+}
+th, td{
+	display: block;
 }
 th{
-	text-align: right;
-	padding-right: 10px;
+	padding-right: 0;
 }
 td{
-	text-align: left;
+	text-align: center;
 	padding: 10px 0;
+	margin-bottom: 20px;
 }
+
+@media (min-width: 480px){
+	.accountInfo{
+		margin-bottom: 40px;
+		border-collapse: collapse;
+		text-align: center;
+	}
+	th, td{
+		display: inline-block;
+	}
+	th{
+		text-align: right;
+		padding-right: 10px;
+	}
+	td{
+		text-align: left;
+		margin-bottom: 0;
+	}
+}
+
 
 
 /*
