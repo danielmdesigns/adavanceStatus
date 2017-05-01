@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<title>eCommission: The Leading Real Estate Commission Advance Company</title>
+<meta name="description" content="Better manage your real estate business cash flow by using eCommission. Apply for a commission advance in minutes and receive up to $15,000 within one hour.">
+<link rel="stylesheet" href="/css/status/as_styles.css">
+<link rel="stylesheet" href="/css/status/as_dropdown.css">
+<link rel="stylesheet" href="/css/status/as_card.css">
+<!-- Google Fonts-->
+<link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,300,400italic,400,600italic,600,700italic,700,800italic,800" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header> <img class="logo" src="/img/a4d/status/ecommission-logo.png" alt=""> </header>
+<nav class="text-center">Hello, <span id="firstName"></span>.</nav>
+<main>
+  <input name="data" type="hidden" id="data">
+  
+  <!-- Select Property -->
+  <div id="selectProperty" class="selectProperty is-hidden">
+    <h4 class="text-center font-18-bold text-darken-blue">Checking advance status for...</h4>
+    <div class="select">
+      <select class="font-14-reg" name="prop" id="prop">
+        <option value="-1" selected="selected">Please select a property address...</option>
+      </select>
+    </div>
+  </div>
+  
+  <!-- Notice Message -->
+  <div id="noticeMessage" class="noticeMessage is-hidden">
+    <div class="font-18-reg text-center">
+      <p>You have no active advances at this time.</p>
+    </div>
+  </div>
+  
+  <!-- Empty State --> 
+  <img id="emptyImage" class="text-center emptyState is-hidden" src="/img/a4d/status/empty_state.png" alt="">
+  <div id="statusInformation" class="is-hidden"> 
+    
+    <!-- Account Information -->
+    <table class="accountInfo">
+      <tr>
+        <th class="text-darken-blue">Agreement Number:</th>
+        <td id="contractNumber" class="text-darken-blue">sdfsd</td>
+      </tr>
+      <tr>
+        <th class="text-darken-blue">Property Address:</th>
+        <td id="address" class="text-darken-blue"></td>
+      </tr>
+    </table>
+    
+    <!-- Funding Amount -->
+    <div class="fundingAmount">
+      <div class="funds-title font-16-bold text-primary-blue">Advance Amount</div>
+      <div id="advance" class="funds-total font-60-bold text-black"></div>
+    </div>
+    
+    <!-- Funding Status -->
+    <div class="advanceStatus card-group">
+      <div class="card">
+        <div id="image_agent" class="card-status"> <img src="/img/a4d/status/check.png" alt=""> </div>
+        <div class="card-text">
+          <div class="card-title">Your Signature</div>
+          <div id="description_agent" class="card-desc"></div>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="card">
+        <div id="image_broker" class="card-status"> <img src="/img/a4d/status/check.png" alt=""> </div>
+        <div class="card-text">
+          <div class="card-title">Broker's Signature</div>
+          <div id="description_broker" class="card-desc"></div>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="card">
+        <div id="image_title" class="card-status"> <img src="/img/a4d/status/check.png" alt=""> </div>
+        <div class="card-text">
+          <div class="card-title">Closing Company Verification</div>
+          <div id="description_title" class="card-desc"></div>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="card">
+        <div id="image_funded" class="card-status"> <img src="/img/a4d/status/check.png" alt=""> </div>
+        <div class="card-text">
+          <div class="card-title">Advance Funded</div>
+          <div id="description_funded" class="card-desc"></div>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Contact Center -->
+  <div class="cta text-center">
+    <h3 class="font-20-bold text-white">Have Questions?</h3>
+    <p class="font-18-reg text-white">Contact us between 9:00am - 6:00pm CST at <a class="white-link" href="tel:+18778224368">(877) 822-4368</a> or you can chat with us live.</p>
+    <a href="#" onclick="OpenLHNChat();return false;" class="button">Live Chat</a> </div>
+</main>
+
+<footer class="text-darken-blue text-center">© 2017 eCommission Financial Services, Inc.</footer>
+
+<!-- jQuery --> 
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script> 
+<script src="/js/a4d/advance_status.js"></script> 
+
+<!-- START eCommission Chat Script --> 
+<script type="text/javascript">
+    var lhnAccountN = "21513";
+    var lhnInviteEnabled = 1;
+    var lhnDepartmentN = 24074;
+    var lhnWindowN = 25823;
+    var lhnHPTicketButton = false;
+    var lhnHPPanel = false;
+    var lhnHPMoreOptions = false;
+    var lhnHPCallbackButton = false;
+</script>
+<style>
+.lhn_help_btn, .lhn_help_btn:visited {
+    background: url(/img/icons/help_btn.png) no-repeat scroll 0 0 transparent !important;
+    height: 149px !important;
+    width: 37px !important;
+}
+.lhn_help_btn:hover{
+    background: url(/img/icons/help_btn.png) no-repeat scroll 0 0 transparent !important;
+    height: 149px !important;
+    width: 37px !important;
+}
+</style>
+<script src="//www.livehelpnow.net/lhn/widgets/helpouttab/lhnhelpouttab-current.min.js" type="text/javascript" id="lhnscriptho"></script> 
+
+</body>
+</html>
