@@ -43,8 +43,12 @@ Fonts
 	text-align: center;
 }
 
-a.white-link:link{
-	color: #FFFFFF;
+a.white-link:link,
+a.white-link:visited,
+a.white-link:hover,
+a.white-link:active,
+a.white-link:focus{
+    color: #FFFFFF;
 }
 
 p{
