@@ -42,6 +42,7 @@ select::-ms-expand {
 /* Arrow */
 .select::after {
   content: "▼";
+	/*content: "â–¼";*/
   position: absolute;
   top: 0;
   right: 0;
